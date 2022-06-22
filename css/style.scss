@@ -85,10 +85,12 @@
     >nav{
       position: absolute;
       z-index: 200;
-      left: 18%;
+      width: 100%;
       top: 110px;
-
+      
       >.gnb{
+        width: 1000px;
+        margin: 0 auto;
         display: flex;
           flex-flow: row nowrap;
           justify-content: space-between;
@@ -302,22 +304,19 @@
   }//end of section.top
 
   >section.mid{
-
     position: relative;
     margin-top: 100px;
     padding-bottom: 250px;
-
+    
     >.subway_menu{
+      margin: 0 auto;
     background-image: url(./../images/bul_tit.png);
     background-size: 60px 60px;
     background-position: 0 0;
     background-repeat: no-repeat;
-
-    position: absolute;
-    left: 10%;
-    top: 0;
- 
-    width: 1300px;
+      position: relative;
+      left: -7%;
+    width: 1000px;
 
     >h1{
       color: #292929;
@@ -330,7 +329,7 @@
     >ul{
       display: flex;
       position: absolute;
-      right: 120px;
+      right: -170px;
       top: 20px;
 
       >li{
@@ -605,33 +604,34 @@
     position: relative;
     background-image: url(./../images/bg_content.gif);
     height: 800px;
-
+    width: 100%;
+    padding-top: 80px;
+    
     >.one{
-      margin-top: 80px;
-      position: absolute;
-      left: 10%;
-      top: 0;
+      width: 1250px;
+      margin: 0 auto;
+      padding-left: 60px;
       display: flex;
       color: #fff;
 
       >.left{
-        //border: 1px solid #000;
         width: 400px;
         height: 300px;
         background-image: url(./../images/bg_left.png);
         
         >p{
+          width: 300px;
           font-size: 28px;
           font-weight: 600;
-          position: absolute;
-          left: 50px;
-          top: 40px;
+          position: relative;
+          left: 10%;
+          top: 11%;
         }
 
         >.link{
-          position: absolute;
+          position: relative;
           left: 50px;
-          top: 220px;
+          top: 150px;
           text-align: center;
           font-size: 17px;
           width: 90px;
@@ -660,14 +660,14 @@
         >p{
           font-size: 28px;
           font-weight: 600;
-          position: absolute;
-          right: 90px;
+          position: relative;
+          left: 420px;
           top: 40px;
         }
         >.link{
-          position: absolute;
+          position: relative;
           right: 270px;
-          top: 220px;
+          top: 150px;
           text-align: center;
           font-size: 17px;
           width: 130px;
@@ -687,12 +687,10 @@
     }//end of .one
 
     >.two{
-      margin-top: 80px;
       width: 1180px;
       height: 300px;
-      position: absolute;
-      left: 10%;
-      top: 330px;
+      margin: 0 auto;
+      margin-top: 30px;
       display: flex;
       justify-content: space-between;
       color: #fff;
@@ -714,12 +712,12 @@
           background-position: 50px 60px;
 
           >p{
-            position: absolute;
-            left: 7%;
-            top: 80px;
+            position: relative;
             margin-bottom: 30px;
 
             &:nth-child(1){
+              left: 80px;
+              top: 80px;
               font-size: 30px;
               font-weight: 800;
             }
@@ -728,7 +726,8 @@
               font-size: 16px;
               color: #666;
               text-align: center;
-              top: 150px;
+              left: -40px;
+              top: 85px;
             }
           }
         }//end of .new_01

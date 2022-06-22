@@ -82,11 +82,13 @@
 #wrap header > .container > nav {
   position: absolute;
   z-index: 200;
-  left: 18%;
+  width: 100%;
   top: 110px;
 }
 
 #wrap header > .container > nav > .gnb {
+  width: 1000px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,14 +299,14 @@
 }
 
 #wrap > section.mid > .subway_menu {
+  margin: 0 auto;
   background-image: url(./../images/bul_tit.png);
   background-size: 60px 60px;
   background-position: 0 0;
   background-repeat: no-repeat;
-  position: absolute;
-  left: 10%;
-  top: 0;
-  width: 1300px;
+  position: relative;
+  left: -7%;
+  width: 1000px;
 }
 
 #wrap > section.mid > .subway_menu > h1 {
@@ -320,7 +322,7 @@
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  right: 120px;
+  right: -170px;
   top: 20px;
 }
 
@@ -566,13 +568,14 @@
   position: relative;
   background-image: url(./../images/bg_content.gif);
   height: 800px;
+  width: 100%;
+  padding-top: 80px;
 }
 
 #wrap > section.btm > .one {
-  margin-top: 80px;
-  position: absolute;
-  left: 10%;
-  top: 0;
+  width: 1250px;
+  margin: 0 auto;
+  padding-left: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -586,17 +589,18 @@
 }
 
 #wrap > section.btm > .one > .left > p {
+  width: 300px;
   font-size: 28px;
   font-weight: 600;
-  position: absolute;
-  left: 50px;
-  top: 40px;
+  position: relative;
+  left: 10%;
+  top: 11%;
 }
 
 #wrap > section.btm > .one > .left > .link {
-  position: absolute;
+  position: relative;
   left: 50px;
-  top: 220px;
+  top: 150px;
   text-align: center;
   font-size: 17px;
   width: 90px;
@@ -623,15 +627,15 @@
 #wrap > section.btm > .one > .right > p {
   font-size: 28px;
   font-weight: 600;
-  position: absolute;
-  right: 90px;
+  position: relative;
+  left: 420px;
   top: 40px;
 }
 
 #wrap > section.btm > .one > .right > .link {
-  position: absolute;
+  position: relative;
   right: 270px;
-  top: 220px;
+  top: 150px;
   text-align: center;
   font-size: 17px;
   width: 130px;
@@ -648,12 +652,10 @@
 }
 
 #wrap > section.btm > .two {
-  margin-top: 80px;
   width: 1180px;
   height: 300px;
-  position: absolute;
-  left: 10%;
-  top: 330px;
+  margin: 0 auto;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -681,13 +683,13 @@
 }
 
 #wrap > section.btm > .two > .bt_lift > .new_01 > p {
-  position: absolute;
-  left: 7%;
-  top: 80px;
+  position: relative;
   margin-bottom: 30px;
 }
 
 #wrap > section.btm > .two > .bt_lift > .new_01 > p:nth-child(1) {
+  left: 80px;
+  top: 80px;
   font-size: 30px;
   font-weight: 800;
 }
@@ -696,7 +698,8 @@
   font-size: 16px;
   color: #666;
   text-align: center;
-  top: 150px;
+  left: -40px;
+  top: 85px;
 }
 
 #wrap > section.btm > .two > .bt_lift > .new_02 {
